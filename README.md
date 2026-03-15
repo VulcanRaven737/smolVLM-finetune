@@ -1,22 +1,3 @@
----
-language:
-- en
-license: apache-2.0
-tags:
-- multimodal
-- vision-language
-- smolvlm
-- lora
-- peft
-- chart-qa
-- document-understanding
-datasets:
-- HuggingFaceM4/ChartQA
-base_model:
-- HuggingFaceTB/SmolVLM-500M-Instruct
-pipeline_tag: image-text-to-text
----
-
 # ChartQA-smolvlm
 
 SmolVLM-500M-Instruct fine-tuned with LoRA on [ChartQA](https://huggingface.co/datasets/HuggingFaceM4/ChartQA) for chart question answering. LoRA adapters were merged into the base model for single-artifact deployment.
